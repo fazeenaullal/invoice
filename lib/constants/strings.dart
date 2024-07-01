@@ -14,7 +14,7 @@ class AppStrings {
   static const String DOWNLOAD_BTN = "DOWNLOAD";
 
   /// Splash screen STRINGS
-  static const String APP_NAME = "FATURA";
+  static const String APP_NAME = "QuCode";
   static const String APP_DESC =
       "send professional invoices to your clients delivered in seconds!";
   static const String START_BTN = "START";
@@ -36,7 +36,7 @@ class AppStrings {
       "add your business details";
 
   static const String NEW_INVOICE_PAYER = "Invoice to";
-  static const String NEW_INVOICE_PAYER_SUBTITLE = "add payer";
+  static const String NEW_INVOICE_PAYER_SUBTITLE = "add client name";
 
   static const String NEW_INVOICE_ITEMS = "Items";
   static const String NEW_INVOICE_ITEMS_SUBTITLE = "add items to your invoice";
@@ -55,7 +55,7 @@ class AppStrings {
   static const String ADD_BUSINESS_ADDRESS = "Address";
   // ADD Payer screens STRINGS
   static const String ADD_PAYER_TITLE = "New Payer";
-  static const String ADD_PAYER_NAME = "Payer Name";
+  static const String ADD_PAYER_NAME = "client Name";
   static const String ADD_PAYER_EMAIL = "Email address";
   static const String ADD_PAYER_PHONE = "Phone number";
   static const String ADD_PAYER_ADDRESS = "Address";

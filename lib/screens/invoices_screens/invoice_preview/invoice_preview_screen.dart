@@ -49,10 +49,11 @@ class InvoicePreviewScreen extends StatelessWidget {
                       child: Column(
                         children: [
                           CustomBtn(
-                            label: AppStrings.SAVE_BTN,
+                            label: AppStrings.PREVIEW_SAVE_BTN,
                             action: () {
                               Get.find<AllInvoiceController>()
                                   .createNewInvoice(args["invoice"]);
+
                               Get.back();
                             },
                             color: AppColors.kPrimaryColor,
